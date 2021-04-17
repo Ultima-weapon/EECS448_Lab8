@@ -1,0 +1,36 @@
+body {
+	background-color: #333333;
+}
+
+label {
+	display: block;
+	color: white;
+}
+
+input[type="button"],
+	label {
+		margin-top: 1rem;
+	}
+
+#title {
+	color: white;
+}
+	
+#result {
+	display: none;
+}
+
+#success {
+	display: none;
+	color: white;
+}
+
+#invalidmatch {
+	display: none;
+	color: white;
+}
+
+#invalidlength {
+	display: none;
+	color: white;
+}

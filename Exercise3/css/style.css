@@ -1,0 +1,88 @@
+body {
+
+	background-image: url(../photos/bg_pic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+img {
+	max-width: 20%;
+	height: auto;
+	text-align: left;
+	border: 1px solid grey;
+}
+
+p {
+	background-color: #444444;
+	color: white;
+	font-family: "Courier New";
+	font-size: 14pt;
+	padding: 10px;
+	display: block;
+	overflow: auto;
+	border-radius: 15px;
+	border: 1px solid grey;
+}
+
+h1 {
+	font-family: "Lucida Handwriting";
+	font-size: 28pt;
+}
+
+div {
+	display: block;
+	overflow: auto;
+}
+
+a:link {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+a:visited {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: darkgrey;
+}
+
+iframe {
+	margin: auto;
+	display: block;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+.TextWrap {
+	float: left;
+	margin: 10px;
+}
+
+.video_container {
+	position: relative;
+	overflow: hidden;
+	width: 48%;
+	padding-top: 28.125%;
+	display: inline-block;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: grey;
+}
+
+.video {
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 100%;
+	height: 100%;
+}

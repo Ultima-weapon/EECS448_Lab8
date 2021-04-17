@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+        <title>Password Validator</title>
+		<link href="css\style.css" rel="stylesheet" type="text/css">
+    </head>
+	<body>
+		<center>
+			<!-- Heading -->
+			<div id="header" class="title-header">
+				<h1 id="title">Password Validator</h1>
+			</div>
+			<div>
+				<label for="password">Enter a password (8 Character Minimum):</label>
+				<input type="password" id="password" minlength="8" required>
+			</div>
+			<div>
+				<label for="validation">Re-enter the password:</label>
+				<input type="password" id="validation" required>
+			</div>
+			<div>
+				<input type="button" id="submit" value="Validate Password">
+			</div>
+			<div id="result">
+				<p id="success">The password is valid.</p>
+				<p id="invalidlength">*** The password is not at least 8 characters long. ***</p>
+				<p id="invalidmatch">*** The passwords entered don't match. ***</p>
+			</div>
+		</center>
+		 <!-- JavaScript includes -->
+        <script type="text/javascript" src="js/pw_validation.js"></script>
+	</body>
+</html>

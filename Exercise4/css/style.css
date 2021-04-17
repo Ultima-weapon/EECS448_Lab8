@@ -1,0 +1,64 @@
+body {
+	background-color: #333333;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+p {
+	background-color: #444444;
+	color: white;
+	font-family: "Courier New";
+	font-size: 14pt;
+	padding: 30px;
+	display: block;
+	overflow: auto;
+	border-radius: 15px;
+	border: solid;
+	border-color: grey;
+	border-width: 1px
+}
+
+div {
+	color: white;
+	display: block;
+	overflow: auto;
+}
+
+.form {
+	display: inline-block;
+}
+
+label {
+	float: left;
+}
+
+input {
+	float: right;
+}
+
+input[type="number"] {
+	width: 35px;
+	height: 12px;
+	text-align: right;
+}
+
+input[type="color"] {
+	border: none;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0px;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+input[type="color"]:focus {
+	outline: none !important;
+	border: none;
+	box-shadow; none;
+}

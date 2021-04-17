@@ -1,0 +1,12 @@
+body {
+	background-color: #333333;
+}
+
+img {
+	height: 480px;
+	width: 640px;
+}
+
+#title {
+	color: white;
+}
